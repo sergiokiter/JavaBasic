@@ -14,9 +14,9 @@ var lastname = "Alegre";
 
  let nota_examen = 4.6;
 
- let result = nota_examen >= 5;
+ 
 
- if (result == true) {
+ if (nota_examen >= 5) {
      alert("Has aprobado el examen con un " + nota_examen);
     }
  else {
